@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot Integration</title>
+  <script> window.chtlConfig = { chatbotId: "4435369364" , display: "fullscreen" } </script>
+<script async data-id="4435369364" id="chtl-script" data-display="fullscreen" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+  <style>
+    /* Reset and global styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212; /* Dark background for a modern look */
+      color: #ffffff; /* White text for contrast */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .chat-container {
+      width: 90%;
+      max-width: 600px;
+      background: #1e1e1e; /* Slightly lighter background for the container */
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .chat-container h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #00bcd4; /* Accent color for the title */
+    }
+
+    .chat-container p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+      color: #b0bec5; /* Subtle text color for description */
+    }
+
+    .chat-container .chatbot {
+      margin-top: 20px;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      .chat-container {
+        padding: 15px;
+      }
+
+      .chat-container h1 {
+        font-size: 1.5rem;
+      }
+
+      .chat-container p {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="chat-container">
+    <h1>Welcome to SerenAI ChatBot</h1>
+    <p>Our chatbot is here to assist you. Feel free to ask any questions!</p>
+    <div class="chatbot">
+      <!-- Chatbot will load here -->
+    </div>
+  </div>
+</body>
+</html>
