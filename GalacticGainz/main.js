@@ -681,12 +681,12 @@ function showExercise() {
 
     setTimer(exercise.time);
 
-    exerciseGraphic.src = "media/exercises/" + exercise.name + "1.svg";
+    exerciseGraphic.src = "media/exercise/" + exercise.name + "1.svg";
 
     imgInterval = setInterval(()=>{
-        exerciseGraphic.src = "media/exercises/" + exercise.name + "2.svg";
+        exerciseGraphic.src = "media/exercise/" + exercise.name + "2.svg";
         setTimeout(()=>{
-            exerciseGraphic.src = "media/exercises/" + exercise.name + "1.svg";
+            exerciseGraphic.src = "media/exercise/" + exercise.name + "1.svg";
         }, 500);
     }, 1000);
 
